@@ -1,7 +1,7 @@
 ﻿/*
  *
  * Monsieur Conjugueur
- * https://github.com/Alexzgreat/MonsieurConjugueur
+ * https://github.com/alexzgreat/MonsieurConjugueur
  * http://alex.tingiris.com/FrenchConjugator
  *
 */
