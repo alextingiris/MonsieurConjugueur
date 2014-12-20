@@ -1,0 +1,39 @@
+﻿{
+"present": [
+        {
+            "infinitive": "être",
+            "je": "suis",
+            "tu": "es",
+            "ilelle": "est",
+            "nous": "sommes",
+            "vous": "êtes",
+            "ilselles": "sont"
+        },
+        {
+            "infinitive": "faire",
+            "je": "fais",
+            "tu": "fais",
+            "ilelle": "fait",
+            "nous": "faisons",
+            "vous": "faites",
+            "ilselles": "font"
+        },
+        {
+            "infinitive": "avoir",
+            "je": "'ai",
+            "tu": "as",
+            "ilelle": "a",
+            "nous": "avons",
+            "vous": "avez",
+            "ilselles": "ont"
+        },
+		{
+            "infinitive": "manger",
+            "je": "mange",
+            "tu": "manges",
+            "ilelle": "mange",
+            "nous": "mangeons",
+            "vous": "mangez",
+            "ilselles": "mangent"
+        }
+]}

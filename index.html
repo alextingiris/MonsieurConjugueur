@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Monsieur Conjugueur</title>
+    <link href="style/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="icon" type="image/png" href="favicon.ico" />
+</head>
+<body>
+    <!-- About Modal -->
+    <div class="modal fade" id="About" tabindex="-1" role="dialog" aria-labelledby="AboutLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="AboutLabel">Bienvenue à Monsieur Conjugueur</h4>
+                </div>
+                <div class="modal-body">
+                    <h3>About</h3>
+                    <p>Monsieur Conjugueur is a simple, elegant French verb conjugator to help English-speakers that are learning French. Monsieur Conjugueur is completely free to use, and works (and looks great!) on all devices (desktops, tablets, and phones).</p>
+                    <hr />
+                    <h3>Does it work with all verbs?</h3>
+                    <p>Monsieur Conjugueur works with all regular -ER, -IR, and -RE verbs, and as of right now, only conjugates in the indicative present tense. <br />Because this is a free, <a href="https://github.com/Alexzgreat/MonsieurConjugueur">open-souce project</a>, we ask our users to help us build our database of verbs. If you notice that an irregular verb is missing, help us out. Please send us the indicitive present tense conjugation and the infinitive form of the verb to <a href="mailto:alex@tingiris.com">alex@tingiris.com</a>, and we will add it to the site ASAP. You can also fork, and update, the JSON file on GitHub, and we will pull it. Thanks for the support!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Main Containier -->
+    <div class="container">
+        <div class="row">
+            <!-- Header -->
+            <div class="col-sm-12 col-md-12">
+                <!-- Logo -->
+                <button id="logo" type="button" data-toggle="modal" data-target="#About"></button>
+            </div>
+            <!-- Main Body -->
+            <div class="col-sm-12 col-md-8">
+                <!-- Verb to be conjugated -->
+                <input type="text" id="verbText" placeholder="verbe" />
+
+                <!-- Conjugate "verbText" button -->
+                <button onclick="Conjugate()" class="btn btn-success">Conjuguer</button>
+
+                <!-- Add diacritic marked letters -->
+                <button onclick="aigu()" class="btn btn-default">é</button>
+                <button onclick="aGrave()" class="btn btn-default">à</button>
+                <button onclick="eGrave()" class="btn btn-default">è</button>
+                <button onclick="uGrave()" class="btn btn-default">ù</button>
+                <button onclick="aCirconflexe()" class="btn btn-default">â</button>
+                <button onclick="eCirconflexe()" class="btn btn-default">ê</button>
+                <button onclick="iCirconflexe()" class="btn btn-default">î</button>
+                <button onclick="oCirconflexe()" class="btn btn-default">ô</button>
+                <button onclick="uCirconflexe()" class="btn btn-default">û</button>
+                <button onclick="eTrema()" class="btn btn-default">ë</button>
+                <button onclick="iTrema()" class="btn btn-default">ï</button>
+                <button onclick="uTrema()" class="btn btn-default">ü</button>
+                <button onclick="cedille()" class="btn btn-default">ç</button>
+
+                <!-- Where the conjugation table (result) is returned -->
+                <div id="result"></div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <p class="footer hidden-xs">Made with Love in Tampa by <a href="http://alex.tingiris.com">Alex Tingiris</a></p>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

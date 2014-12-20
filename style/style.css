@@ -1,0 +1,58 @@
+﻿/*
+ *
+ * Monsieur Conjugueur
+ * https://github.com/Alexzgreat/MonsieurConjugueur
+ * http://alex.tingiris.com/FrenchConjugator
+ *
+*/
+
+/* Basics */
+
+a {
+    color: #5cb85c !important;
+}
+
+.btn {
+    margin-bottom: 15px !important;
+}
+
+/* /Basics */
+
+/* "Brand" Style */
+
+#logo {
+    float: right;
+    background-image: url('../images/logo.svg');
+    width: 60px;
+    border: none;
+    height: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+}
+
+/* /"Brand" Style */
+
+/* Conjugatior */
+
+#verbText {
+    height: 120pt;
+    font-size: 52pt;
+    outline: none;
+    border: none;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+}
+
+    #verbText:focus {
+        outline: none;
+    }
+
+#result {
+    margin-top: 10pt;
+}
+
+/* /Conjugator */
