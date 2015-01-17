@@ -1,7 +1,7 @@
 ﻿{
-"present": [
+"présent": [
         {
-            "infinitive": "être",
+            "infinitif": "être",
             "je": "suis",
             "tu": "es",
             "ilelle": "est",
@@ -10,7 +10,7 @@
             "ilselles": "sont"
         },
         {
-            "infinitive": "faire",
+            "infinitif": "faire",
             "je": "fais",
             "tu": "fais",
             "ilelle": "fait",
@@ -19,7 +19,7 @@
             "ilselles": "font"
         },
         {
-            "infinitive": "avoir",
+            "infinitif": "avoir",
             "je": "'ai",
             "tu": "as",
             "ilelle": "a",
@@ -28,7 +28,7 @@
             "ilselles": "ont"
         },
 		{
-            "infinitive": "manger",
+            "infinitif": "manger",
             "je": "mange",
             "tu": "manges",
             "ilelle": "mange",
