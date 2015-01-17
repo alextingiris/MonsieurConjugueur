@@ -56,17 +56,17 @@ function Conjugate() {
             }
         });
         // Conjugation of regular -ER verbs
-        if (txt.indexOf('er') !== -1 && txt.indexOf('er') === txt.length - 2 && txt !== v.infinitif) {
+        if (txt.indexOf('er') !== -1 && txt.indexOf('er') === txt.length - 2) {
             var er = txt.substring(0, txt.length - 2);
             target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + er + 'e</td><td> Nous ' + er + 'ons</td></tr><tr><td> Tu ' + er + 'es</td><td> Vous ' + er + 'ez</td></tr><tr><td> Il/Elle ' + er + 'e</td><td> Ils/Elles ' + er + 'ent</td></tr></tbody></table>';
         }
         // Conjugation of regular -IR verbs
-        if (txt.indexOf('ir') !== -1 && txt.indexOf('ir') === txt.length - 2 && txt !== v.infinitif) {
+        if (txt.indexOf('ir') !== -1 && txt.indexOf('ir') === txt.length - 2) {
             var ir = txt.substring(0, txt.length - 2);
             target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + ir + 'is</td><td> Nous ' + ir + 'issons</td></tr><tr><td> Tu ' + ir + 'is</td><td> Vous ' + ir + 'issez</td></tr><tr><td> Il/Elle ' + ir + 'it</td><td> Ils/Elles ' + ir + 'issent</td></tr></tbody></table>';
         }
         // Conjugation of regular -RE verbs
-        if (txt.indexOf('re') !== -1 && txt.indexOf('re') === txt.length - 2 && txt !== v.infinitif) {
+        if (txt.indexOf('re') !== -1 && txt.indexOf('re') === txt.length - 2) {
             var re = txt.substring(0, txt.length - 2);
             target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + re + 's</td><td> Nous ' + re + 'ons</td></tr><tr><td> Tu ' + re + 's</td><td> Vous ' + re + 'ez</td></tr><tr><td> Il/Elle ' + re + '</td><td> Ils/Elles ' + re + 'ent</td></tr></tbody></table>';
         }
