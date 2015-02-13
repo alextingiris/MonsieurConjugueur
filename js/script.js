@@ -51,7 +51,7 @@ function Conjugate() {
         // Go though exceptions (irregular verbs)
         $.each(book, function (i, v) {
             if (v.infinitif == txt) {
-                target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + v.je + '</td><td> Nous ' + v.nous + '</td></tr><tr><td> Tu ' + v.tu + '</td><td> Vous ' + v.vous + '</td></tr><tr><td> Il/Elle ' + v.ilelle + '</td><td> Ils/Elles ' + v.ilselles + '</td></tr></tbody></table>';
+                target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td>' + v.je + '</td><td>' + v.nous + '</td></tr><tr><td>' + v.tu + '</td><td>' + v.vous + '</td></tr><tr><td>' + v.ilelle + '</td><td>' + v.ilselles + '</td></tr></tbody></table>';
                 return;
             }
         });
