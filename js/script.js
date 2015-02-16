@@ -47,35 +47,38 @@ function Conjugate() {
 
         target.innerHTML = "";
 
-        // Find correct conjugation
-        // Go though exceptions (irregular verbs)
+
+        // Irregular verb conjugation
         $.each(book, function (i, v) {
-            if (v.infinitif == txt) {
-                target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td>' + v.je + '</td><td>' + v.nous + '</td></tr><tr><td>' + v.tu + '</td><td>' + v.vous + '</td></tr><tr><td>' + v.ilelle + '</td><td>' + v.ilselles + '</td></tr></tbody></table>';
+            if (v.infinitif === txt) {
+                target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + v.je + '</td><td> Nous ' + v.nous + '</td></tr><tr><td> Tu ' + v.tu + '</td><td> Vous ' + v.vous + '</td></tr><tr><td> Il/Elle/On ' + v.ilelle + '</td><td> Ills/Elles ' + v.ilselles + '</td></tr></tbody></table>';
                 return;
             }
         });
-        // Conjugation of regular -ER verbs
-        if (txt.indexOf('er') !== -1 && txt.indexOf('er') === txt.length - 2) {
-            var er = txt.substring(0, txt.length - 2);
-            target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + er + 'e</td><td> Nous ' + er + 'ons</td></tr><tr><td> Tu ' + er + 'es</td><td> Vous ' + er + 'ez</td></tr><tr><td> Il/Elle ' + er + 'e</td><td> Ils/Elles ' + er + 'ent</td></tr></tbody></table>';
+        // Regular verb conjugation
+        if (target.innerHTML == '') {
+            // Regular -ER verbs
+            if (txt.indexOf('er') !== -1 && txt.indexOf('er') === txt.length - 2) {
+                var er = txt.substring(0, txt.length - 2);
+                target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + er + 'e</td><td> Nous ' + er + 'ons</td></tr><tr><td> Tu ' + er + 'es</td><td> Vous ' + er + 'ez</td></tr><tr><td> Il/Elle/On ' + er + 'e</td><td> Ils/Elles ' + er + 'ent</td></tr></tbody></table>';
+            }
+
+            // Regular -IR verbs
+            if (txt.indexOf('ir') !== -1 && txt.indexOf('ir') === txt.length - 2) {
+                var ir = txt.substring(0, txt.length - 2);
+                target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + ir + 'is</td><td> Nous ' + ir + 'issons</td></tr><tr><td> Tu ' + ir + 'is</td><td> Vous ' + ir + 'issez</td></tr><tr><td> Il/Elle/On ' + ir + 'it</td><td> Ils/Elles ' + ir + 'issent</td></tr></tbody></table>';
+            }
+
+            // Regular -RE verbs
+            if (txt.indexOf('re') !== -1 && txt.indexOf('re') === txt.length - 2) {
+                var re = txt.substring(0, txt.length - 2);
+                target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + re + 's</td><td> Nous ' + re + 'ons</td></tr><tr><td> Tu ' + re + 's</td><td> Vous ' + re + 'ez</td></tr><tr><td> Il/Elle/On ' + re + '</td><td> Ils/Elles ' + re + 'ent</td></tr></tbody></table>';
+            }
         }
-        // Conjugation of regular -IR verbs
-        if (txt.indexOf('ir') !== -1 && txt.indexOf('ir') === txt.length - 2) {
-            var ir = txt.substring(0, txt.length - 2);
-            target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + ir + 'is</td><td> Nous ' + ir + 'issons</td></tr><tr><td> Tu ' + ir + 'is</td><td> Vous ' + ir + 'issez</td></tr><tr><td> Il/Elle ' + ir + 'it</td><td> Ils/Elles ' + ir + 'issent</td></tr></tbody></table>';
-        }
-        // Conjugation of regular -RE verbs
-        if (txt.indexOf('re') !== -1 && txt.indexOf('re') === txt.length - 2) {
-            var re = txt.substring(0, txt.length - 2);
-            target.innerHTML = '<table class="table table-hover"><thead><tr><td><strong>Singulier</strong></td><td><strong>Pluriel</strong></td></tr></thead><tbody><tr><td> Je ' + re + 's</td><td> Nous ' + re + 'ons</td></tr><tr><td> Tu ' + re + 's</td><td> Vous ' + re + 'ez</td></tr><tr><td> Il/Elle ' + re + '</td><td> Ils/Elles ' + re + 'ent</td></tr></tbody></table>';
-        }
-    }
-    )
+    })
 }
 
 // Ability to add diacritic marks
-
 function aigu() {
     var txt = document.getElementById("verbText");
     txt.value = txt.value + "é";

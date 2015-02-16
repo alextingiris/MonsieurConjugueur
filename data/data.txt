@@ -20,7 +20,7 @@
         },
         {
             "infinitif": "avoir",
-            "je": "'ai",
+            "je": "ai",
             "tu": "as",
             "ilelle": "a",
             "nous": "avons",
