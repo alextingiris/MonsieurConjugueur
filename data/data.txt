@@ -35,5 +35,69 @@
             "nous": "mangeons",
             "vous": "mangez",
             "ilselles": "mangent"
+        },
+		{
+            "infinitif": "dire",
+            "je": "dis",
+            "tu": "dis",
+            "ilelle": "dit",
+            "nous": "disons",
+            "vous": "dites",
+            "ilselles": "disent"
+        },
+		{
+            "infinitif": "aller",
+            "je": "vais",
+            "tu": "vas",
+            "ilelle": "va",
+            "nous": "allons",
+            "vous": "allez",
+            "ilselles": "vont"
+        },
+		{
+            "infinitif": "voir",
+            "je": "vois",
+            "tu": "vois",
+            "ilelle": "voit",
+            "nous": "voyons",
+            "vous": "voyez",
+            "ilselles": "voient"
+        },
+		{
+            "infinitif": "savoir",
+            "je": "sais",
+            "tu": "sais",
+            "ilelle": "sait",
+            "nous": "savons",
+            "vous": "savez",
+            "ilselles": "savent"
+        },
+		{
+            "infinitif": "pouvoir",
+            "je": "peux",
+            "tu": "peux",
+            "ilelle": "peut",
+            "nous": "pouvons",
+            "vous": "pouvez",
+            "ilselles": "peuvent"
+        },
+		{
+            "infinitif": "falloir",
+            "je": "-",
+            "tu": "-",
+            "ilelle": "faut",
+            "nous": "-",
+            "vous": "-",
+            "ilselles": "-"
+        },
+		{
+            "infinitif": "vouloir",
+            "je": "veux",
+            "tu": "veux",
+            "ilelle": "veut",
+            "nous": "voulons",
+            "vous": "voulez",
+            "ilselles": "veulent"
         }
+
 ]}
