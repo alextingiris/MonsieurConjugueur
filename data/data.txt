@@ -1,4 +1,4 @@
-﻿{
+{
 "présent": [
         {
             "infinitif": "être",
@@ -98,6 +98,77 @@
             "nous": "voulons",
             "vous": "voulez",
             "ilselles": "veulent"
+        },
+		{
+            "infinitif": "boire",
+            "je": "bois",
+            "tu": "bois",
+            "ilelle": "boit",
+            "nous": "buvons",
+            "vous": "buvez",
+            "ilselles": "boivent"
+        },
+		{
+            "infinitif": "prendre",
+            "je": "prends",
+            "tu": "prends",
+            "ilelle": "prend",
+            "nous": "prenons",
+            "vous": "prenez",
+            "ilselles": "prennent"
+        },
+		{
+            "infinitif": "lire",
+            "je": "lis",
+            "tu": "lis",
+            "ilelle": "lit",
+            "nous": "lisons",
+            "vous": "lisez",
+            "ilselles": "lisent"
+        },
+		{
+            "infinitif": "écrire",
+            "je": "écris",
+            "tu": "écris",
+            "ilelle": "écrit",
+            "nous": "écrivons",
+            "vous": "écrivez",
+            "ilselles": "écrivent"
+        },
+		{
+            "infinitif": "rire",
+            "je": "ris",
+            "tu": "ris",
+            "ilelle": "rit",
+            "nous": "rions",
+            "vous": "riez",
+            "ilselles": "rient"
+        },
+		{
+            "infinitif": "conduire",
+            "je": "conduis",
+            "tu": "conduis",
+            "ilelle": "conduit",
+            "nous": "conduisons",
+            "vous": "conduisez",
+            "ilselles": "conduisent"
+        },
+		{
+            "infinitif": "mettre",
+            "je": "mets",
+            "tu": "mets",
+            "ilelle": "met",
+            "nous": "mettons",
+            "vous": "mettez",
+            "ilselles": "mettent"
+        },
+		{
+            "infinitif": "croire",
+            "je": "crois",
+            "tu": "crois",
+            "ilelle": "croit",
+            "nous": "croyons",
+            "vous": "croyez",
+            "ilselles": "croient"
         }
-
 ]}
