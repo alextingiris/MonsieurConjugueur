@@ -170,5 +170,68 @@
             "nous": "croyons",
             "vous": "croyez",
             "ilselles": "croient"
-        }
+        },
+        {
+	"infinitif": "sentir",
+	"je": "sens",
+	"tu": "sens",
+	"ilelle": "sent",
+	"nous": "sentons",
+	"vous": "sentez",
+	"ilselles": "sentent"
+},
+{
+	"infinitif": "servir",
+	"je": "sers",
+	"tu": "sers",
+	"ilelle": "sert",
+	"nous": "servons",
+	"vous": "servez",
+	"ilselles": "servent"
+},
+{
+	"infinitif": "sortir",
+	"je": "sors",
+	"tu": "sors",
+	"ilelle": "sort",
+	"nous": "sortons",
+	"vous": "sortez",
+	"ilselles": "sortent"
+},
+{
+	"infinitif": "partir",
+	"je": "pars",
+	"tu": "pars",
+	"ilelle": "part",
+	"nous": "partons",
+	"vous": "partez",
+	"ilselles": "partent"
+},
+{
+	"infinitif": "courir",
+	"je": "cours",
+	"tu": "cours",
+	"ilelle": "court",
+	"nous": "courons",
+	"vous": "courez",
+	"ilselles": "courent"
+},
+{
+	"infinitif": "devoir",
+	"je": "dois",
+	"tu": "dois",
+	"ilelle": "doit",
+	"nous": "devons",
+	"vous": "devez",
+	"ilselles": "doivent"
+},
+{
+	"infinitif": "dormir",
+	"je": "dors",
+	"tu": "dors",
+	"ilelle": "dort",
+	"nous": "dormons",
+	"vous": "dormez",
+	"ilselles": "dorment"
+}
 ]}
