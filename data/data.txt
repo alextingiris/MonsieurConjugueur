@@ -233,5 +233,23 @@
 	"nous": "dormons",
 	"vous": "dormez",
 	"ilselles": "dorment"
+},
+{
+        "infinitif": "sourire",
+        "je": "souris",
+        "tu": "souris",
+        "ilelle": "sourit",
+        "nous": "sourions",
+        "vous": "souriez",
+        "ilselles": "sourient"
+},
+{
+        "infinitif": "recevoir",
+        "je": "reçois",
+        "tu": "reçois",
+        "ilelle": "reçoit",
+        "nous": "recevons",
+        "vous": "recevez",
+        "ilselles": "reçoivent"
 }
 ]}
